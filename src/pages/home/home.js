@@ -3,28 +3,40 @@ import "./home.css";
 import Typed from "react-typed";
 import mgikunda from "./mgikunda.jpg";
 import CssBaseline from "@material-ui/core/CssBaseline";
-import Typography from "@material-ui/core/Typography";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import Container from "@material-ui/core/Container";
 const home = () => {
   return (
     <>
       <CssBaseline />
-      <Container maxWidth="sm">
-        <div className="hero">
-          <img src={mgikunda} alt="the devs pic" className="pic" />
-          <div className="hero-text">
-            <h1>I am Mgikunda</h1>
-            <Typed
-              strings={[
-                "I am a fullstack Web Developer",
-                "I am an IOT enthusiast",
-                "I enjoy writing code",
-              ]}
-              typeSpeed={40}
-              backSpeed={50}
-              loop
-            />
+      <Container>
+        <div class="sidebar">
+          <a class="active" href="#home">
+            Home
+          </a>
+          <a href="#about">About</a>
+          <a href="#projects">projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div className="content">
+          <div className="hero" id="home">
+            <img src={mgikunda} alt="the devs pic" className="pic" />
+            <div className="hero-text">
+              <h1>I am Mgikunda</h1>
+              <Typed
+                strings={[
+                  "I am a fullstack Web Developer",
+                  "I am an IOT enthusiast",
+                  "I enjoy writing code",
+                ]}
+                typeSpeed={40}
+                backSpeed={50}
+                loop
+              />
+            </div>
+            <hr />
           </div>
+          <div></div>
         </div>
       </Container>
     </>
