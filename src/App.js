@@ -6,6 +6,10 @@ function App() {
   return (
     <div className="App">
       <p>peter m</p>
+      <p>Lorem </p>
+      <p>Lorem </p> <p>Lorem </p> <p>Lorem </p> <p>Lorem </p> <p>Lorem </p>{" "}
+      <p>Lorem </p> <p>Lorem </p> <p>Lorem </p> <p>Lorem </p> <p>Lorem </p>{" "}
+      <p>Lorem </p> <p>Lorem </p> <p>Lorem </p>
     </div>
   );
 }
