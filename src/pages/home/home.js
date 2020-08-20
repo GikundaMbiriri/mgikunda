@@ -24,10 +24,7 @@ const home = () => {
               backSpeed={50}
               loop
             />
-
-            <hr />
           </div>
-          <div></div>
         </div>
       </Container>
     </>
