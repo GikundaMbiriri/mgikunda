@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Charmonman&display=swap");
+body,
+html {
+  height: 100vh;
+}
+
+.hero {
+  position: relative;
+}
+.pic {
+  position: absolute;
+  object-fit: cover;
+
+  z-index: -1;
+}
+.hero-text {
+  position: absolute;
+  font-family: "Charmonman", cursive;
+  font-size: 28px;
+  /* top: 50%;
+  left: 50%; */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  /* transform: translate(-50%, -50%); */
+
+  padding: 20px; /*Some padding */
+}

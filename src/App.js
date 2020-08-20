@@ -1,16 +1,18 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import home from "./pages/home/home";
 
 function App() {
   return (
-    <div className="App">
-      <p>peter m</p>
-      <p>Lorem </p>
-      <p>Lorem </p> <p>Lorem </p> <p>Lorem </p> <p>Lorem </p> <p>Lorem </p>{" "}
-      <p>Lorem </p> <p>Lorem </p> <p>Lorem </p> <p>Lorem </p> <p>Lorem </p>{" "}
-      <p>Lorem </p> <p>Lorem </p> <p>Lorem </p>
-    </div>
+    <>
+      <Router>
+        {/* <Navbar /> */}
+
+        <Switch>
+          <Route exact path="/" component={home} />
+        </Switch>
+      </Router>
+    </>
   );
 }
 
