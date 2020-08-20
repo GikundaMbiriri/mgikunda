@@ -9,7 +9,7 @@ const home = () => {
   return (
     <>
       <CssBaseline />
-      <Container>
+      <Container maxWidth="sm">
         <div className="hero" id="home">
           <img src={mgikunda} alt="the devs pic" className="pic" />
           <div className="hero-text">
