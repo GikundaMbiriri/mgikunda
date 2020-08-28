@@ -62,7 +62,7 @@ const home = () => {
               Skills
             </b>
           </p>
-          <p>Adobe Photoshop</p>
+          <p>Node.js</p>
           <div className="w3-light-grey w3-round-xlarge w3-small">
             <div
               className="w3-container w3-center w3-round-xlarge w3-teal"
@@ -71,31 +71,94 @@ const home = () => {
               90%
             </div>
           </div>
-          <p>Photography</p>
+          <p>es6</p>
           <div className="w3-light-grey w3-round-xlarge w3-small">
             <div
               className="w3-container w3-center w3-round-xlarge w3-teal"
-              style={{ width: "80%" }}
+              style={{ width: "90%" }}
             >
-              <div className="w3-center w3-text-white">80%</div>
+              <div className="w3-center w3-text-white">90%</div>
             </div>
           </div>
-          <p>Illustrator</p>
+          <p>Mongodb</p>
           <div className="w3-light-grey w3-round-xlarge w3-small">
             <div
               className="w3-container w3-center w3-round-xlarge w3-teal"
-              style={{ width: "75%" }}
+              style={{ width: "95%" }}
             >
-              75%
+              95%
             </div>
           </div>
-          <p>Media</p>
+          <p>Firebase</p>
           <div className="w3-light-grey w3-round-xlarge w3-small">
             <div
               className="w3-container w3-center w3-round-xlarge w3-teal"
-              style={{ width: "50%" }}
+              style={{ width: "99%" }}
             >
-              50%
+              99%
+            </div>
+          </div>
+          <p>git</p>
+          <div className="w3-light-grey w3-round-xlarge w3-small">
+            <div
+              className="w3-container w3-center w3-round-xlarge w3-teal"
+              style={{ width: "99%" }}
+            >
+              99%
+            </div>
+          </div>
+          <p>jest</p>
+          <div className="w3-light-grey w3-round-xlarge w3-small">
+            <div
+              className="w3-container w3-center w3-round-xlarge w3-teal"
+              style={{ width: "90%" }}
+            >
+              90%
+            </div>
+          </div>
+          <p>Html5,css3,bootstrap</p>
+          <div className="w3-light-grey w3-round-xlarge w3-small">
+            <div
+              className="w3-container w3-center w3-round-xlarge w3-teal"
+              style={{ width: "99%" }}
+            >
+              99%
+            </div>
+          </div>
+          <p>React&redux</p>
+          <div className="w3-light-grey w3-round-xlarge w3-small">
+            <div
+              className="w3-container w3-center w3-round-xlarge w3-teal"
+              style={{ width: "99%" }}
+            >
+              99%
+            </div>
+          </div>
+          <p>python</p>
+          <div className="w3-light-grey w3-round-xlarge w3-small">
+            <div
+              className="w3-container w3-center w3-round-xlarge w3-teal"
+              style={{ width: "90%" }}
+            >
+              90%
+            </div>
+          </div>
+          <p>Javascript</p>
+          <div className="w3-light-grey w3-round-xlarge w3-small">
+            <div
+              className="w3-container w3-center w3-round-xlarge w3-teal"
+              style={{ width: "95%" }}
+            >
+              95%
+            </div>
+          </div>
+          <p>Data analysis</p>
+          <div className="w3-light-grey w3-round-xlarge w3-small">
+            <div
+              className="w3-container w3-center w3-round-xlarge w3-teal"
+              style={{ width: "99%" }}
+            >
+              90%
             </div>
           </div>
         </section>
@@ -103,52 +166,57 @@ const home = () => {
           <div className="w3-container w3-card w3-white w3-margin-bottom">
             <h2 className="w3-text-grey w3-padding-16">
               <i className="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>
-              Work Experience
+              Education
             </h2>
             <div className="w3-container">
               <h5 className="w3-opacity">
-                <b>Front End Developer / w3schools.com</b>
+                <b>Moi University-Electrical and Electronics Engineering</b>
               </h5>
               <h6 className="w3-text-teal">
-                <i className="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015
+                <i className="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2018
                 - <span className="w3-tag w3-teal w3-round">Current</span>
               </h6>
               <p>
-                Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel
-                in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora
-                soluta ea et odio, unde doloremque repellendus iure, iste.
+                I pursue a bachelor's degree in electrical and electonics
+                engineering at Moi University which is one of my interests. I
+                love undestanding how electronics function and what other better
+                way than to pursue this course.I love what I get from the
+                school.
               </p>
               <hr />
             </div>
             <div className="w3-container">
               <h5 className="w3-opacity">
-                <b>Web Developer / something.com</b>
+                <b>Freecodecamp.org -Software Engineering</b>
               </h5>
               <h6 className="w3-text-teal">
-                <i className="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012
-                - Dec 2014
+                <i className="fa fa-calendar fa-fw w3-margin-right"></i>Dec 2018
+                - Jul 2020
               </h6>
               <p>
-                Consectetur adipisicing elit. Praesentium magnam consectetur vel
-                in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora
-                soluta ea et odio, unde doloremque repellendus iure, iste.
+                Writing code is something I enjoy.Freecodecamp offer the one of
+                the best programming course .That makes me try out most of their
+                courses.
               </p>
               <hr />
             </div>
             <div className="w3-container">
               <h5 className="w3-opacity">
-                <b>Graphic Designer / designsomething.com</b>
+                <b>W3Schools - Web Development</b>
               </h5>
               <h6 className="w3-text-teal">
-                <i className="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010
-                - Mar 2012
+                <i className="fa fa-calendar fa-fw w3-margin-right"></i>Dec 2018
+                - Jul 2020
               </h6>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+              <p> Here I trained on most of my frontend skills</p>
               <br />
             </div>
           </div>
         </section>
         <section id="card">
+          <h2 id="projo">
+            <b>What I have done</b>
+          </h2>
           <Mycard />
 
           <p>jjkk</p>
