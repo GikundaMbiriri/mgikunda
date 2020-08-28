@@ -1,32 +1,105 @@
-@import url("https://fonts.googleapis.com/css2?family=Charmonman&display=swap");
-body,
-html {
-  height: 100vh;
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  text-align: center;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+img {
+  width: 70%;
+  height: 210px;
+  margin: 2em;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
-.hero {
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px 0px;
+  width: 60%;
+  margin: 0px auto;
+  text-decoration: none;
   position: relative;
 }
 
-.pic {
+/* Active/current link */
+
+.aa:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
   position: absolute;
-  object-fit: cover;
-
-  width: 100%;
-  height: auto;
-
-  z-index: -1;
+  background: #000;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
 }
-.hero-text {
-  position: absolute;
-  font-family: "Charmonman", cursive;
-  font-size: 28px;
+.aa:hover:after {
   width: 100%;
-  height: auto;
-  background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-  color: #f1f1f1; /* Grey text */
-  /* transform: translate(-50%, -50%); */
+  left: 0;
+}
+/* Links on mouse-over */
+/* .sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+} */
 
-  padding: 20px; /*Some padding */
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+  margin-left: 300px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+#home {
+  background-image: linear-gradient(to right, khaki, ghostwhite);
+  text-align: center;
+  padding: 2em;
+  line-height: 1em;
+  font-size: 48px;
+  font-family: "Sacramento", cursive;
+}
+#card {
+  background-image: linear-gradient(
+    to right,
+    rgba(31, 68, 170, 0),
+    rgb(218, 190, 190)
+  );
+}
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar .aa {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;
+  }
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidebar .aa {
+    text-align: center;
+    float: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  #about {
+    text-transform: uppercase;
+  }
+  .sidebar {
+    display: none;
+  }
 }
