@@ -1,5 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Faster+One&family=Italianno&family=Nixie+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+body {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.897),
+    rgb(233, 221, 233)
+  );
+}
+#gg {
+  font-family: "Great Vibes", cursive;
+  font-size: 36px;
+}
+#nav {
+  display: none;
+}
+section {
+  margin-top: 2rem;
+}
 .sidebar {
   margin: 0;
   padding: 0;
@@ -13,7 +32,17 @@
 #projo {
   font-family: "Cookie", cursive;
 }
-img {
+#ac {
+  font-family: "Faster One", cursive;
+}
+#mobi {
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: none;
+}
+#mg {
   width: 70%;
   height: 210px;
   margin: 2em;
@@ -59,23 +88,27 @@ img {
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 div.content {
   margin-left: 300px;
-  padding: 1px 16px;
+  padding: 1px 5px;
   height: 1000px;
 }
 #home {
-  background-image: linear-gradient(to right, khaki, ghostwhite);
+  /* background-image: linear-gradient(
+    to right,
+    rgba(23, 99, 122, 0.123),
+    rgb(223, 185, 223)
+  ); */
   text-align: center;
   padding: 2em;
   line-height: 1em;
-  font-size: 48px;
-  font-family: "Sacramento", cursive;
+  font-size: 1rem;
+  /* font-family: "Sacramento", cursive; */
 }
 #card {
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to right,
     rgba(31, 68, 170, 0),
     rgb(218, 190, 190)
-  );
+  ); */
 }
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
 @media screen and (max-width: 700px) {
@@ -89,6 +122,7 @@ div.content {
   }
   div.content {
     margin-left: 0;
+    width: 100%;
   }
 }
 
@@ -100,10 +134,13 @@ div.content {
   }
 }
 @media screen and (max-width: 700px) {
-  #about {
-    text-transform: uppercase;
-  }
   .sidebar {
     display: none;
+  }
+  #mobi {
+    display: initial;
+  }
+  #nav {
+    display: initial;
   }
 }
